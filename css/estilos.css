@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 6px 0;
+}
+
+ul,
+ol,
+li {
+	margin-left: 16px;
+}
+
+nav {
+	background-color: #4b0082;
+	padding: 10px;
+}
+
+.nav-link {
+	font-size: 1rem;
+	color: white;
+	text-decoration: none;
+	margin-right: 1rem;
+}
+
+.active-link {
+	color: plum;
+}
+
+.container {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #efefef;
+	padding: 10px;
+}
+
+main {
+	height: calc(100vh - 185px);
+}
+
+aside {
+	float: left;
+	width: 25%;
+	height: 100%;
+	border-right: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+}
+
+aside div {
+	padding: 6px 6px 0 6px;
+	border-bottom: 1px solid #efefef;
+}
+
+a.aside-link {
+	text-decoration: none;
+	color: #000;
+}
+
+aside div a.aside-active-link {
+	color: #4b0082;
+}
+
+article {
+	float: right;
+	width: 75%;
+	padding: 10px;
+	height: 100%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+footer {
+	background-color: #efefef;
+	padding: 10px;
+}
+
+.overflow-y-scroll {
+	overflow-y: scroll;
+}
+
+.form-group {
+	margin-bottom: 16px;
+}
